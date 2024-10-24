@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 4300px;
+    width: 1372px;
+    border: 70px solid #dcdada;
+}
+/*-------------------------nav section-----------------------------------*/
+.nav-section{
+    margin-top: 10px;
+    height: 80px;
+    color: #283b28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-sec1{
+    padding-left:2px;
+}
+.nav-line{
+    padding-left: 40px;
+    
+}
+.nav-content{
+    width:65%;
+}
+.nav-content a{
+    padding-left: 40px;
+    font-size: 1.1rem;
+}
+.login{
+    height:35px ;
+    width: 80px;
+    border: 2px solid #283b28;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.nav-getstart{
+    height:35px ;
+    width: 100px;
+    margin-left: 5px;
+    background-color: #283b28;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
+/*section*/
+.section1{
+    margin-top: 60px;
+    height: 600px;
+    width: 80%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-left: 10%;
+}
+
+.section-left{
+    padding-top: 50px;
+}
+.p1{
+    padding-bottom: 40px;
+    color: #283b28;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.p2{
+    font-size:50px;
+    padding-bottom: 40px;
+}
+.p3{
+    font-size: 1.1rem;
+    color: rgb(76, 74, 74);
+    padding-bottom: 50px;
+
+}
+.getstart{
+    height:60px ;
+    width: 150px;
+    background-color: #283b28;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+}
+
+.section-right img{
+    height: 600px;
+    width: 480px;
+    /*padding-left:210px;*/
+}
+/*section 2*/
+.section2{
+    margin-top: 90px;
+    height: 80px;
+    border-top: 2px solid #636963;
+    border-bottom:2px solid #636963;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: normal;
+   
+}
+.box {
+    height: 80px;
+    border-right: 2px solid #636963;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-right: 80px;
+    color: #636963;
+
+
+}
+.box1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #636963;
+    padding-right: 10px;
+
+}
+/*section3*/
+.section3{
+    margin-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(228, 216, 204);
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.section-right2{
+    padding-top:100px ;
+    padding-left:50px;
+    padding-right: 20px;
+}
+.section-right2.p1{
+    color: #283b28;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.section-right2.p2{
+    font-size:51px;
+    /*padding-bottom: 40px;*/
+}
+.section-right2.p3{
+    font-size: 1.1rem;
+    color: rgb(76, 74, 74);
+    /*padding-bottom: 50px;*/
+
+}
+.section-right2.getstart{
+    height:60px ;
+    width: 150px;
+    background-color: #283b28;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+}
+
+.section-left2 img{
+    height: 600px;
+    width: 480px;
+}
+/*section4*/
+.section4{
+    margin-top: 60px;
+    height: 600px;
+    width: 80%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-left: 10%;
+}
+
+.section-left3{
+    padding-top: 50px;
+}
+.section-left3.p1{
+    padding-bottom: 40px;
+    color: #283b28;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.section-left3.p2{
+    font-size:50px;
+    padding-bottom: 40px;
+}
+.section-left3.p3{
+    font-size: 1.1rem;
+    color: rgb(76, 74, 74);
+    padding-bottom: 50px;
+
+}
+.section-left3.getstart{
+    height:60px ;
+    width: 150px;
+    background-color: #283b28;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+}
+
+.section-right3 img{
+    height: 600px;
+    width: 480px;
+    /*padding-left:210px;*/
+}
+/*section 5*/
+.section5{
+    margin-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-color: #073B3A;
+}
+.sec5-heading{
+    padding-top: 70px;
+    color:rgb(212, 209, 209);
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+.sec5-heading p{
+    font-size: 1rem;
+    padding-top: 30px;
+
+}
+.sec5-box{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box-savings{
+    width: 270px;
+    height: 320px;
+    background-color:#f7eeed;
+    border-radius: 10px;
+}
+.saving-icon{
+    padding-left: 75%;
+    padding-top: 10%;
+    font-size: 2em;
+}
+.box-investment{
+    width: 270px;
+    height: 320px;
+    background-color:#e6e9f9;
+    border-radius: 10px;
+}
+.investment-icon{
+    padding-left: 75%;
+    padding-top: 10%;
+    font-size: 2em;
+}
+.box-pay{
+    width: 270px;
+    height: 320px;
+    background-color:#d7f8d9;
+    border-radius: 10px;
+}
+.pay-icon{
+    padding-left: 75%;
+    padding-top: 10%;
+    font-size: 2em;
+}
+
+.box-business{
+    width: 270px;
+    height: 320px;
+    background-color:#fee8d3;
+    border-radius: 10px;
+}
+.business-icon{
+    padding-left: 75%;
+    padding-top: 10%;
+    font-size: 2em;
+}
+
+.positive-vline{
+    margin-top:10%;
+    height:40px;
+    border-left: 1px solid gray;
+    margin-left:20%;
+}
+.line{
+    border-bottom: 1px solid gray;
+}
+.negative-vline{
+    height:40px;
+    border-right: 1px solid gray;
+    margin-right:20%;
+
+}
+
+#p1{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 1.2rem;
+}
+
+#p2{
+    margin-left: 10%;
+    color:gray;
+
+}
+.section6{
+    height: 300px;
+    background-color: #fdfff6;
+    padding-top: 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    border-bottom: 2px solid grey;
+}
+.sec6-heading{
+    color:rgb(19, 5, 5);
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+    font-weight: normal;
+}
+.sec6-heading p{
+    font-size: 1rem;
+    padding-top: 30px;
+    color: #283b28;
+
+}
+
+.sec6-getstart{
+    height:60px ;
+    width: 150px;
+    background-color: #283b28;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.foot-sec1{
+    height: 355px;
+    display: flex;
+    margin-top:7%;
+
+    
+}
+.reach-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 70%;
+    justify-content: space-around;
+}
+
+.icon-border{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #616261;
+    border-radius: 60%;
+}
+
+.gap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-section{
+    width: 40%;
+    color: #283b28;
+    padding-left: 10%;
+}
+.left-section p{
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
+
+
+.right-section{
+    width: 65%;
+    display: flex;
+
+}
+
+.features{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #616261;
+    margin-bottom:15% ;
+    
+}
+
+.help{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #616261;
+    margin-bottom:15% ;
+}
+
+.finances{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #616261;
+    margin-bottom:15% ;
+}
+
+.right-section li{
+    list-style-type: none;
+    padding-bottom:20px;
+    font-size: 1.05rem;
+}
+.right-section h4{
+    color:#616261;
+    padding-bottom:21px;
+
+}
+
+
+
+.foot-sec2{
+    height: 80px;
+    background-color:#bcbcb8;
+    border-top:2px solid rgb(66, 56, 56);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
